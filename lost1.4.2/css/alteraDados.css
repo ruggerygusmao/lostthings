@@ -1,0 +1,87 @@
+
+		
+	.master{ resize:none; 
+    	padding: 0.2em;
+    	border: 1px solid #CCC;
+    	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    	display: block
+	  	  } 
+	#cancelar{
+ background-color:  #2E8B57;
+    color: #FFFFFF;
+    padding: 6px 8px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 6px;
+    border:1px solid #2E8B57;
+
+}
+	
+	font {
+	font-family: sans-serif;
+    font-size: 1em;
+	     }
+      
+     #en{
+     text-decoration: none;
+}
+       #linmenu{
+        
+        background-color: #000000;
+}
+
+  
+      
+font {
+	font-family: sans-serif;
+    font-size: 1em;
+	     }
+
+label.error {
+	font-size: 12px;
+	color: #900;
+	font: 14px Helvetica Neue, Helvetica, Arial, "sans-serif";	
+}
+
+
+#cadastro ul {
+	list-style: none;	
+}
+#cadastro li {
+	display: block;
+	margin-bottom: 14px;	
+}
+#cadastro label {
+	display: block;
+	margin-bottom: 5px;	
+}
+#cadastro input[type=text]{
+	line-height: 30px;
+	width: 180px;
+	height: 30px;
+	display: block;
+	border: solid 1px #dcdcdc;
+	background: #f2f2f2;	
+}
+ input[type="submit"]{
+  	font-weight: bold;
+	border-radius: 6px;
+  	padding: 6px 8px;
+  	border:1px solid #2E8B57;;
+ 	background: #2E8B57;
+  	color:#fff;
+	}
+
+#cade{
+	background-color: #2E8B57;
+	}
+
+body {
+         background-image: url("http://corretoraportalsalvador.com.br/wp-content/uploads/2016/06/background-degrade.jpg");
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-position: 70% 100%;
+         
+}
