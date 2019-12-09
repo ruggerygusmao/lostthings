@@ -10,7 +10,7 @@
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/login.css"/>
 	
 </head>
 
@@ -18,7 +18,7 @@
 
 <p></p>
 <center>
-<img src="img/entra.png" width="280px">
+<img src="../img/entra.png" width="280px">
 </center>
 
 
@@ -51,7 +51,7 @@
 
 
 	<tr height=35>
-	<td colspan=2><a href="novocad.html"><font size="2" color="#2E8B57"><center>Cadastre-se</center></font></a></td>
+	<td colspan=2><a href="../usuario/novocad.html"><font size="2" color="#2E8B57"><center>Cadastre-se</center></font></a></td>
 	</tr>
 
 	<tr height=45>
