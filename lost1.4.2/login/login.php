@@ -28,7 +28,7 @@
 <div>
 
 
-<form name="login" method="post" action="lerLogin.php">
+<form name="login" method="post" action="../login/lerLogin.php">
 	<table  border="0">
 
 	
@@ -51,7 +51,7 @@
 
 
 	<tr height=35>
-	<td colspan=2><a href="../usuario/novocad.html"><font size="2" color="#2E8B57"><center>Cadastre-se</center></font></a></td>
+	<td colspan=2><a href="../usuario/novocad.php"><font size="2" color="#2E8B57"><center>Cadastre-se</center></font></a></td>
 	</tr>
 
 	<tr height=45>

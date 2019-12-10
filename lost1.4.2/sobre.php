@@ -1,5 +1,5 @@
 <?php  
-include("detalhe.php");
+include("../validacao/detalhe.php");
 ?>
 
 <html>
@@ -24,7 +24,7 @@ include("detalhe.php");
 	<td><img src="img/entra.png" width="250px"</td>
 	</tr>
 	<tr>
-	<th><center><h3>Versão 1.0.1</h3></center></th>
+	<th><center><h3>Versão 1.0</h3></center></th>
 	</tr>
 		</table>
 	</center>

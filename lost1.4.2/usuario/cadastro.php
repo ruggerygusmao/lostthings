@@ -1,11 +1,11 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="2;url=login.php">
+<meta http-equiv="refresh" content="2;url=../login/login.php">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/cadastro.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cadastro.css"/>
 </head>
 <body>
 	<center>
@@ -14,7 +14,7 @@
 
 
 <?php
-include("conexao.php");
+include("../conexao/conexao.php");
 $nome = $_POST['nome'];
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];

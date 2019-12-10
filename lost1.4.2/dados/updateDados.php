@@ -1,6 +1,6 @@
 <?php
-include ("detalhe.php");
-include ("conexao.php");
+include ("../validacao/detalhe.php");
+include ("../conexao/conexao.php");
 
 $nome = $_POST["nome"];
 $email = $_POST["email"];
@@ -25,18 +25,18 @@ $stmt->execute();
 ?>
 <html>
 <head>
-	<meta http-equiv="refresh" content="2;url=paginainicial.php">
+	<meta http-equiv="refresh" content="2;url=../paginainicial/paginainicial.php">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" type="text/css" href="css/paginainicial.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/paginainicial.css"/>
 </head>
 
 <body>
-<?php include("topo.php");?>
+<?php include("../menu/topo.php");?>
  
 <?php  
   if ($stmt->rowCount()>0){

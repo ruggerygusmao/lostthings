@@ -1,4 +1,4 @@
-<?php include("detalhe.php");?>
+<?php include("../validacao/detalhe.php");?>
 
 <html>
   
@@ -10,20 +10,20 @@
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"rel="stylesheet" type="text/css">
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.js"></script>
-	<script type="text/javascript" src="js/validaDados.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>
+	<script type="text/javascript" src="../js/validaDados.js"></script>
 	
-	<link rel="stylesheet" type="text/css" href="css/alteraDados.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/alteraDados.css"/>
     
       
   </head>
   
   <body>
-	<?php include("topo.php");?>      
+	<?php include("../menu/topo.php");?>      
               
 
-	<?php include("conexao.php");?>
+	<?php include("../conexao/conexao.php");?>
 
  <center>
 	<div id="login">
@@ -37,7 +37,7 @@
   	$resAlunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
   ?>
 
-  <form id="cadastro"  action='updateDados.php' method=POST>
+  <form id="cadastro"  action='../dados/updateDados.php' method=POST>
 
          <table id ="dadosP" border=0 >
 <?php
@@ -74,7 +74,7 @@
 
 			<tr height=40><li>
                            <td align='center'><input type=submit value=Alterar></td>
-                           <td align='center'><a id='cancelar' href='paginainicial.php'>Cancelar</a></td>
+                           <td align='center'><a id='cancelar' href='../paginainicial/paginainicial.php'>Cancelar</a></td>
                         </tr></li> 
 				</ul>";
 			  }

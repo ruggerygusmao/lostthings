@@ -9,5 +9,5 @@
 	unset ($_SESSION["senha"]);
 	
 	
-	header('location:login.php');
+	header('location: ../login/login.php');
 ?>

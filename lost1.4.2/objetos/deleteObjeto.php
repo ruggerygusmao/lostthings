@@ -1,9 +1,9 @@
 <?php  
-include("detalhe.php");
+include("../validacao/detalhe.php");
 ?>
 <html>
 <head>
-<meta http-equiv="refresh" content="5;url=paginainicial.php">
+<meta http-equiv="refresh" content="5;url=../paginainicial/paginainicial.php">
 
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,12 +74,10 @@ input[type="submit"] {
 </head>
 
 <body>
- <?php include("topo.php");?>
+ <?php include("../menu/topo.php");?>
+ <?php include("../conexao/conexao.php");?>
 
-<?php
-		include 'conexao.php'; 
-		
-		
+	<?php
  
 		try{
 		$stmt = $conexao->prepare("delete from objeto where id_objetos=?");

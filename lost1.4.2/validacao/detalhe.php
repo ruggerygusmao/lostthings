@@ -7,7 +7,7 @@ session_start();
 if(!isset ($_SESSION['usuario']) and !isset ($_SESSION['id'])){
   unset($_SESSION['usuario']);
   unset($_SESSION['id']);
-  header('location:login.php');
+  header('location:../login/login.php');
   }
 
 $logado = $_SESSION['usuario'];

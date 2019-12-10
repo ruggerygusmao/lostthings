@@ -1,5 +1,5 @@
 <?php  
-include("detalhe.php");
+include("../validacao/detalhe.php");
 ?>
 
 <!DOCTYPE html>
@@ -13,12 +13,12 @@ include("detalhe.php");
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"rel="stylesheet" type="text/css">
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/listar2.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/listar2.css"/>
 </head>
 
 <body>
 
- <?php include("topo.php");?>
+ <?php include("../menu/topo.php");?>
 
 <form action="listar2.php" method="POST">
  	<label>Buscar Objeto:</label><input type="text" name="objeto" > 
@@ -29,7 +29,7 @@ include("detalhe.php");
 
 
 <?php
-  include("conexao.php");
+  include("../conexao/conexao.php");
 ?>
 
 

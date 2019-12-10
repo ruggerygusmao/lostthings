@@ -1,8 +1,8 @@
-<?php include("topo.php");?>
+<?php include("../menu/topo.php");?>
  
 <?php
-include("detalhe.php");
-include("conexao.php");
+include("../validacao/detalhe.php");
+include("../conexao/conexao.php");
 $objeto = $_POST['objeto'];
 $cidade = $_POST['cidade'];
 $bairro = $_POST['bairro'];
@@ -11,7 +11,7 @@ $telefone = $_POST['telefone'];
 $descricao = $_POST['descricao'];
 
 
-	$uploaddir = 'imagens/';
+	$uploaddir = '/lostthings/lost1.4.2/imagens/';
 	 $uploadfile = $uploaddir . basename($_FILES['imagem']['name']);
 	 $arquivo_tmp = $_FILES['imagem']['tmp_name'];
 	$uploadfile;
@@ -38,7 +38,7 @@ $descricao = $_POST['descricao'];
  ?>
 <html>
 <head>
-<meta http-equiv="refresh" content="2;url=publicacao.php">
+<meta http-equiv="refresh" content="2;url=../objetos/publicacao.php">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -46,7 +46,7 @@ $descricao = $_POST['descricao'];
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" type="text/css" href="css/paginainicial.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/paginainicial.css"/>
 </head>
 <body>
 

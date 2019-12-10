@@ -1,5 +1,5 @@
 <?php  
-include("detalhe.php");
+include("../validacao/detalhe.php");
 ?>
 
 <!DOCTYPE html>
@@ -13,14 +13,13 @@ include("detalhe.php");
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"rel="stylesheet" type="text/css">
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/meusObjetos.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/meusObjetos.css"/>
 </head>
 
 <body>
 
- <?php include("topo.php");?>
-
- <?php include("conexao.php");?>
+ <?php include("../menu/topo.php");?>
+ <?php include("../conexao/conexao.php");?>
 
 
 <?php
@@ -66,7 +65,7 @@ include("detalhe.php");
 			</tr>
 				
 			<tr>
-                    <td><a id='alt' href='alterarObjetos.php?idobjetos=".$linha['id_objetos']."'>Alterar</a></td>
+                    <td><a id='alt' href='../objetos/alterarObjetos.php?idobjetos=".$linha['id_objetos']."'>Alterar</a></td>
 
 			<td><input type=submit value=Excluir></td>
 			</tr>

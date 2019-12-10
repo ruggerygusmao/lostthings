@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/cadastro.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cadastro.css"/>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.js"></script>
-	<script type="text/javascript" src="js/validaCad.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>
+	<script type="text/javascript" src="../js/validaCad.js"></script>
 </head>
 
 
@@ -26,7 +26,7 @@
 <center>
 <div id="cad" >
 
-<form id="cadastro" method="post" action="cadastro.php">
+<form id="cadastro" method="post" action="../usuario/cadastro.php">
 <table CELLSPACING="10">
     <ul>
         <tr height=40><li>
@@ -84,3 +84,4 @@
 </center>
 	<body>
 	</html>
+
