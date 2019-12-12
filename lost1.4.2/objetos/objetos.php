@@ -11,7 +11,7 @@ $telefone = $_POST['telefone'];
 $descricao = $_POST['descricao'];
 
 
-	$uploaddir = '/lostthings/lost1.4.2/imagens/';
+	$uploaddir = 'imagens/';
 	 $uploadfile = $uploaddir . basename($_FILES['imagem']['name']);
 	 $arquivo_tmp = $_FILES['imagem']['tmp_name'];
 	$uploadfile;

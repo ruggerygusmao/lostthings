@@ -18,15 +18,15 @@
 
 	<body>
 
-<center>
-	<h1 id = "cade">Cadastro</h1>
+	<center>
+		<h1 id = "cade">Cadastro</h1>
 	</center>
-
+	
 
 <center>
 <div id="cad" >
 
-<form id="cadastro" method="post" action="../usuario/cadastro.php">
+<form id="cadastro" method="post" action="../usuario/insertUsuario.php">
 <table CELLSPACING="10">
     <ul>
         <tr height=40><li>
@@ -73,7 +73,7 @@
         
         <tr height=40><li>
             <td><center><input type="submit" id="enviar" value="Enviar" /></center></td>
-	    <td><center><input type="reset" id="limpar" value="Limpar" /></center></td>
+	    <td><center><a href="../login/login.php"><input type="button" id="limpar" value="Voltar" /></a></center></td>
 	    
         </li></tr>
 	
