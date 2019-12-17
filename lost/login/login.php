@@ -61,11 +61,10 @@
 
 	</table>
 </form>
-
 <?php
     if($_GET["msg"]=="error"){
 
-    echo "<h5><font color=#FF0000>Login ou Senha inválidos.</font></h5>";
+    echo "<h5><font color=#FF0000>Login ou a senha não estão corretos. Tente novamente</font></h5>";
 	}
     ?> 
 
