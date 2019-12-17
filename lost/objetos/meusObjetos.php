@@ -21,14 +21,11 @@ include("../validacao/detalhe.php");
  <?php include("../menu/topo.php");?>
  <?php include("../conexao/conexao.php");?>
 
-
 <?php
 	  $stmt = $conexao->prepare("select  * from objeto where id_usuario='$id'");
-	
-
-  $stmt->execute();
-  $resAlunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
-  ?>
+	  $stmt->execute();
+  		$resAlunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
 
   <center>	
 	<div>
@@ -40,9 +37,7 @@ include("../validacao/detalhe.php");
 
   	echo " 
 		       <td><input type=hidden name='id' value=".$linha["id_objetos"]."></td>
-			
 
-	
               		<tr><th >Objeto:</th>
 		       <td>".$linha["objeto"]."</td>
 			</tr>
